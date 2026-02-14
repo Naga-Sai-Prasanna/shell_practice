@@ -16,8 +16,8 @@ echo "pwd :: $PWD"
 echo "username :: $USER"
 echo "script nzme :: $0"
 echo "home :: $HOME"
-echo "pid of the script: $$"
+echo "pid of the script:$$"
 sleep 10 &
-echo "recent process :: $!"
+echo "recent process ::$!"
 echo " no.of var:: $#"
 
