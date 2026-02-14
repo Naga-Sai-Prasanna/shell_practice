@@ -1,5 +1,5 @@
 #!/bin/bash
-num1=100
-num2=20
+num1=$1
+num2=$2
 sum=$(($num1+$num2))
 echo "sum is:$sum"
