@@ -9,7 +9,7 @@ PESON1=$1
 PESON2=$2
 
 echo "$PESON1::HI $PESON2"
-echo "$PESON2::Bye $PESON1
+echo "$PESON2::Bye $PESON1"
 
 echo "args paased :: $@"
 echo "pwd :: $PWD"
