@@ -5,11 +5,11 @@ PERSON2=SASHI
 echo "$PERSON1::HI $PERSON2"
 echo "$PERSON2::Bye $PERSON1
 
-PERSON1=$1
-PERSON2=$2
+PESON1=$1
+PESON2=$2
 
-echo "$PERSON1::HI $PERSON2"
-echo "$PERSON2::Bye $PERSON1
+echo "$PESON1::HI $PESON2"
+echo "$PESON2::Bye $PESON1
 
 echo "args paased :: $@"
 echo "pwd :: $PWD"
