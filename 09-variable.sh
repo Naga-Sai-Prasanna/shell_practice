@@ -3,13 +3,13 @@ PERSON1=ABHI
 PERSON2=SASHI
 
 echo "$PERSON1::HI $PERSON2"
-echo "$PERSON2::Bye $PERSON1
+echo "$PERSON2::Bye $PERSON1"
 
-PESON1=$1
-PESON2=$2
+USER1=$1
+USER2=$2
 
-echo "$PESON1::HI $PESON2"
-echo "$PESON2::Bye $PESON1"
+echo "$USER1::HI $$USER2"
+echo "$USER2::Bye $USER1"
 
 echo "args paased :: $@"
 echo "pwd :: $PWD"
